@@ -121,7 +121,7 @@ class GUI:
         class Sulphur:        
             
             def sulphur():
-                #root.withdraw()
+                root.withdraw()
                 root2=Toplevel()#2nd window
                 #root.minsize(800,700)
                 global back_image
@@ -164,7 +164,7 @@ class GUI:
             #nitrogen analysis
         class Nitro:
                 def nitro():
-                    #root.withdraw()
+                    root.withdraw()
                     root1=Toplevel()
                     #root.minsize(800,700)
                     global back_image
@@ -205,7 +205,7 @@ class GUI:
                     
         class Halogen:
                 def halogen():
-                    #root.withdraw()
+                    root.withdraw()
                     root3=Toplevel()
                     global back_image
                     bg_image=Label(root3,image=back_image).pack(side='top',fill='both')                                            
